@@ -26,5 +26,5 @@ if __name__ == '__main__':
     
         for bullet in bullets:
             rank = bullet.div.contents[0]
-            site = bullet.h2.a.contents[0]
+            site = bullet.a.contents[0]
             print('%s%s%s' % (rank, delimiter, site))
